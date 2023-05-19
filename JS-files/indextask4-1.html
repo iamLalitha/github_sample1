@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guvi JS Day 4</title>
+    </head>
+    <body>
+        <h1>Hello</h1>
+        <h2>This is lalitha- my first webapp</h2>
+        <script>
+            console.log("Welcome to HTML JS")
+
+            let obj1={
+    name:"person 1",
+    age: "5"};
+let obj2={
+    age:"5",
+    name: "person 1"};
+let flag = true
+for(let e in obj1)
+{
+  if(obj1[e]!== obj2[e])
+  {
+    flag=false;
+    break
+  }
+}
+flag?console.log("Equall"):console.log("Not Equall")
+
+        </script>
+    </body>
+</html>
+

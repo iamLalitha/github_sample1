@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML& CSS DAY3 CONTINUED</title>
+<style>
+    .body{
+        padding: 20px;
+    }
+    .grandparent{
+        border:3px solid black;
+        padding: inherit;
+    }
+    .parent{
+        /* height:100px;
+        width: 100px; */
+        border: inherit;
+        padding: inherit;
+    }
+    .child{
+        /* height: inherit;
+        width: inherit; */
+        border: inherit;
+        padding: inherit ;
+    }
+</style>
+</head>
+<body>
+    <h2>Parent Inherit</h2>
+    <div class="grandparent">
+        This is a grandparent class.
+    <div class="parent">
+        This is a parent class
+        <div class="child">
+            This is a child class
+       </div>
+   </div>
+   </div>
+</body>
+</html>

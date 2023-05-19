@@ -1,0 +1,32 @@
+.container{
+    border:1px solid black;
+    display:flex;
+    height:300px;
+    align-items: center;
+     justify-content:center; 
+    /* flex-direction:column-reverse; */
+    flex-wrap: wrap;
+   
+}
+.green, .red, .blue{
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 10px;
+    /* flex-basis: 75px; /*initial size*/
+    /*flex-grow: 1; */
+}
+.green{
+    background-color: green;
+    flex-grow: 1;
+    order:2;
+}
+.red{
+    background-color: red;
+    flex-grow: 2;
+    order: 1;
+}
+.blue{
+    background-color: blue;
+    flex-shrink: 3;
+    order: 3;
+}

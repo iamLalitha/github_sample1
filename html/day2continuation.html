@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS DAY 2 CONTINUED</title>
+</head>
+<body>
+    <!-- Precedence 
+    Precedence order:
+1. Inline styles
+2. Internal selectors
+3. ID selectors
+4. Class selectors
+5. Element or Tag selectors
+6. External stylesheets
+7. Universal selectors
+-->
+  <!-- <h1 id="headingID" class="headingclass" style="color:chocolate;">This is my heading</h1>  -->
+  <!-- <div>
+    FIRST DIV
+  </div>
+  <div>
+    FIRST DIV
+  </div>
+  <div>
+    FIRST DIV
+  </div> -->
+  <div>
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Motivationalimage"
+   width="100px" id="firstimage"; >
+   </div>
+   <div>
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Motivationalimage"
+   style="width:100px;" >
+   </div>
+   <div>
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Motivationalimage"
+   style="width:100px;" >
+   <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Motivationalimage"
+   style="width:100px;" >
+   </div>
+  <style>
+    /* very least precedence for universal selectors */
+    *{
+        color:black;
+    }
+    /* #headingID{
+        color: blue;
+    }
+    /* last style has the highest precedence */
+    /* this will override the existing style
+    #headingID{
+        color:red;
+    }
+    .headingClass{
+        color:red;
+    } */
+
+    /* ID selectors has highest priority when compared with class  */
+    #headingID{
+        color:darkmagenta ;
+    }
+    .headingClass{
+        color:blue;
+    }
+    /* least precedence  */
+    h1{
+        color:salmon !important;
+    }
+    /* div{
+        display:inline;
+    }
+    div{
+        display:block;
+    } */
+    #firstimage{
+        display: block;
+    }
+
+    /* !important is a keyword used to override the precedence */
+  </style> 
+</body>
+</html>

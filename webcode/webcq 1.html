@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+    <style>
+    .quoted-word::before {
+            content: '"';
+        }
+        .quoted-word::after {
+            content: '"';
+        }
+    </style>
+    <!-- <style>
+/* #myCanvas{
+  border: 1px solid black;
+} */
+    </style> -->
+  </head>
+  <body>
+    <!-- <canvas id="myCanvas" width="200" height="100"></canvas> -->
+    <p>"This can be defined as <span class="quoted-word">scripting</span>."</p>
+  </body>
+</html>
+<!-- Display a rectangle using canvas of 
+width 200 and height 100 with 
+border color as black using id selector -->
+<!-- Quote using double quotes the word scripting 
+in the sentence "This can be defined as scripting" -->

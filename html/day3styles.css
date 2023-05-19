@@ -1,0 +1,40 @@
+li{
+    color:seagreen;
+}
+a:hover{
+    text-decoration: none;
+    background-color: yellow;
+    color:;
+}
+.button:active{
+    background-color: aquamarine;
+}
+a:active{
+    text-decoration: underline;
+    color: green;
+}
+a:visited{
+    color:crimson;
+}
+/* "a:link" means it is unvisited. It sets deafualt property to that value in the tag. */
+a:link{
+    color:deeppink
+}
+.span{
+    background-color: coral;
+    display: inline-block;
+    width: 50px;
+    height:25px;
+    /* padding-bottom:20px; */
+    padding:20px;
+    border:3px solid seagreen;
+    /* border:outset -efer video*/
+    /* margin-top:10px;
+    margin-right:20px ;
+    margin-left:15px ;
+    margin-bottom:25px ; */
+    /* in padding the first value is top and bottom vallue and second is left and right value  */
+    /* padding: 25p 40px; */
+    /* top, left, right , bottom */
+    /* padding: 20px 10px 10px; */
+}

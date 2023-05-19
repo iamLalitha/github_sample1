@@ -1,0 +1,124 @@
+<!-- html day 1 - shortcut is ctrl + / for commenting -->
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <title>HTML day 1</title>
+    </head>
+    <body>
+        <!-- for adding headings -->
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3></h3>
+    <h4></h4>
+    <h5></h5>
+    <h6></h6>
+    <!-- for paragraphs -->
+    <p></p>
+     <!-- for unordered lists -->
+     <ul type="disc">
+        <li>Item 1</li>
+        <li> Item 2</li>
+        <ul type="circle">
+            <li>item 2 - sub1</li>
+            <ul type="square">
+                <li>item2 - sub1 -hey</li>
+                <li>item2 - sub1 -hi</li>
+            </ul>
+            <li>item 2 - sub2</li>
+        </ul>
+        <li> Item 3</li>
+     </ul>
+      <!-- for ordered lists -->
+      <ol type="a">
+        <li>coffeee</li>
+        <ul>
+            <li>cappucino</li>
+            <li>strong coffee</li>
+            <li>iced coffee</li>
+        </ul>
+        <li>tea</li>
+        <li>coke</li>
+      </ol>
+
+      <!-- for creating links -->
+      
+      click<a href="https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md" target="_blank" title="session task"> here</a>
+
+      <!-- for adding images -->
+      <!-- no closing tag for img -->
+
+      <img src="https://qph.fs.quoracdn.net/main-qimg-ec85f1794f64f32e7499e00bbf63fe89" alt="Motivational image" width="300">
+      <img src ="./html/OIP.jpg" alt="doitnow image" width="210">
+   <!-- for creating tables -->
+   <table border="1" style="border-collapse: collapse";cellpadding="5">
+    <tr>
+        <th colspan="3">Table</th>
+        <th rowspan="4">India</th>
+    </tr>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Place</th>
+    </tr>
+    <tr>
+        <td>Lalitha</td>
+        <td>22</td>
+        <td>Tamil Nadu</td>
+    </tr>
+    <tr>
+        <td>santhosh</td>
+        <td>21</td>
+        <td>Tamil Nadu</td>
+    </tr>
+   </table>
+  
+   <!-- day 2 html -->
+   <!-- refer span,div,inline and block elements -->
+   <!-- for input elements -->
+
+<form action="/successpage.html">
+    <label for="User Name"> User Name:</label>
+    <input type="text" placeholder="User Name" id="User Name" style="display:block" required>
+    <label for="email"> Email:</label>
+    <input type="email" placeholder="email" id="email" style="display:block" required>
+    <lable for="password"> Password:</label>
+    <input type="password" placeholder=" password" id="password" style="display:block" required>
+    <input type="radio" id="male" Name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" Name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="reset" value="Reset" style="display:block">
+    <input type="submit" value="Submit">
+</form>
+
+<!-- for creating checkbox -->
+<form method="get" action="/successpage.html">
+<input type ="checkbox" value="coffee" name="preference" >Coffee</br>
+<input type ="checkbox" value="tea" name="preference"> Tea </br>
+<input type ="checkbox" value="milk" name="preference"> Milk </br>
+
+<!-- for creating dropdown box -->
+
+<!-- <select name="milk" multiple here "multiple" just chnages the UI of the dropdown box--> -->
+    <!-- <option>Toned milk</option>
+    <option>soy milk</option>
+    <option>full cream milk</option>
+</select>
+<input type="submit"> -->
+<!-- </form> -->
+
+<select name="type of milk">
+    <option>Toned milk</option>
+    <option>soy milk</option>
+    <option>full cream milk</option>
+</select>
+<input type="submit">
+
+<input type="date" min="2023-01-01" max="2023-06-06" style="display:block">
+<input type="datetime-local" style="display:block">
+<input type="datetime" style="display:block">
+</form>
+    </body>
+
+</html>
+
